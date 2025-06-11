@@ -1,0 +1,111 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    height: 100vh;
+    background-color: black;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    
+}
+
+.container{
+    height: 34rem;
+    width: 22rem;
+    background-color: #036969;
+    border-radius: 1rem;
+}
+.conup{
+    height: 4rem;
+    width: 22rem;
+    background-color: #036969;
+    border-top-left-radius:1rem;
+    border-top-right-radius: 1rem;
+    box-shadow: 0px 2px 2px #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+i{
+     margin-left: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    color:#251c1c;
+    font-weight: 650;
+}
+.sidediv{
+   
+    height: 2.5rem;
+    width: 9rem;
+    background-color: #80808089;
+    margin-right:1rem ;
+    border-radius:4px ;
+    box-shadow: -2px -2px 1px #000000 ;
+}
+.calculator{
+    background-color: #042c2c;
+    height: 29rem;
+    width: 21rem;
+    border-radius: 0.9rem;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    box-shadow: -2px -2px 1px #000000;
+}
+.input{
+    height: 4.3rem;
+    width: 20.9rem;
+    background-color:#000000 ;
+    border-radius: 1rem;
+}
+input{
+    height: 4rem;
+    width: 20.9rem;
+    background-color: #f6d0d0;
+    border-radius: 1rem;
+    position: relative;
+    top: 0.1rem;
+    bottom: 0.1rem;
+    right: 0.01rem;
+    border: none;
+    outline: none;
+    box-shadow: -1px -1px 1px #000000;
+    font-size: 2rem;
+    color: #5b5252;
+}
+input::placeholder{
+    color: #5b5252;
+    font-size: 2.5rem;
+    position: relative;
+    top: 0.3rem;
+}
+.button{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 1.5rem;
+}
+button{
+    border: none;
+    height: 3.1rem;
+    width: 3.1rem;
+    border-radius: 50%;
+    box-shadow: -10px -14px 20px  #244a4a ;
+    font-size: 1.2rem;
+    font-weight: 650;
+    cursor: pointer;
+}
+.btn{
+    background-color:#005800;
+    color: #f15f46;
+}
+.operator{
+    background-color:#e6a42a;
+    color: #1b6e1b;
+}
+button:active{
+    background-color: #656363;
+}
